@@ -18,7 +18,7 @@ public class servidor {
         try {
             // Criando serviço na porta 1099
             LocateRegistry.createRegistry(1099);
-            System.setProperty("java.rmi.server.hostname","127.0.0.1");
+            System.setProperty("java.rmi.server.hostname","192.168.1.110");
             // Conectanto ao Banco de Dados
             banco bd = new banco();
             bd.connectar();
