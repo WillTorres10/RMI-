@@ -4,7 +4,7 @@ import java.rmi.Naming;
 import shared.Functions;
 
 public class Cliente {
-	static String endpoint_addr = "127.0.0.1";
+	static String endpoint_addr = "10.42.0.107:1099";
 	
 	public static void main(String[] args) {
 
